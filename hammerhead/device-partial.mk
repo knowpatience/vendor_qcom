@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/netmgrd:system/bin/netmgrd:qcom \
     vendor/qcom/hammerhead/proprietary/nl_listener:system/bin/nl_listener:qcom \
     vendor/qcom/hammerhead/proprietary/port-bridge:system/bin/port-bridge:qcom \
+    vendor/qcom/hammerhead/proprietary/qmi_fw.conf/system/etc/qmi_fw.conf:qcom
     vendor/qcom/hammerhead/proprietary/qmuxd:system/bin/qmuxd:qcom \
     vendor/qcom/hammerhead/proprietary/qseecomd:system/bin/qseecomd:qcom \
     vendor/qcom/hammerhead/proprietary/radish:system/bin/radish:qcom \
@@ -161,6 +162,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libqmi.so:system/vendor/lib/libqmi.so:qcom \
     vendor/qcom/hammerhead/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom \
     vendor/qcom/hammerhead/proprietary/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom \
+    vendor/qcom/hammerhead/proprietary/librpmb.so:system/vendor/liblibrpmb.so:qcom \
     vendor/qcom/hammerhead/proprietary/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so:qcom \
     vendor/qcom/hammerhead/proprietary/librs_adreno.so:system/vendor/lib/librs_adreno.so:qcom \
     vendor/qcom/hammerhead/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
@@ -168,6 +170,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/qcom/hammerhead/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     vendor/qcom/hammerhead/proprietary/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
     vendor/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom 
 
