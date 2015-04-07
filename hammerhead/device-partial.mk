@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/netmgrd:system/bin/netmgrd:qcom \
     vendor/qcom/hammerhead/proprietary/nl_listener:system/bin/nl_listener:qcom \
     vendor/qcom/hammerhead/proprietary/port-bridge:system/bin/port-bridge:qcom \
-    vendor/qcom/hammerhead/proprietary/qmi_fw.conf/system/etc/qmi_fw.conf:qcom \
+    vendor/qcom/hammerhead/proprietary/qmi_fw.conf:/system/etc/qmi_fw.conf:qcom \
     vendor/qcom/hammerhead/proprietary/qmuxd:system/bin/qmuxd:qcom \
     vendor/qcom/hammerhead/proprietary/qseecomd:system/bin/qseecomd:qcom \
     vendor/qcom/hammerhead/proprietary/radish:system/bin/radish:qcom \
