@@ -172,7 +172,9 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
     vendor/qcom/hammerhead/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
     vendor/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
-    vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom 
+    vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
+    vendor/qcom/hammerhead/proprietary/serviceitems.jar:system/etc/permissions/serviceitems.jar:qcom \
+    vendor/qcom/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml:qcom \
 
 # System Apps
 PRODUCT_PACKAGES += \
